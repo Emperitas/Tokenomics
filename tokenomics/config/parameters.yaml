@@ -1,0 +1,18 @@
+initial_price: 0.2
+max_token_count: 21000000000
+initial_hodlers: 0
+initial_speculators: 0
+initial_immediate_users: 0
+initial_delayed_users: 0
+static_agent_distribution:
+  - 0.05 # Hodlers
+  - 0.15 # Speculators
+  - 0.7 # Immediate Users
+  - 0.1 # Delayed Users
+initial_tokens_per_agent: 10
+initial_dollars_per_agent: 50
+mean_agent_inflow: 50
+std_agent_inflow: 5
+max_steps: 520
+seed: 1
+token_reduction_ratio: 5000
